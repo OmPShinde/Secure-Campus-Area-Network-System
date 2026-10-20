@@ -42,23 +42,6 @@ A campus network must keep different user groups separate, stay available when a
 7. The Active Directory server provides DHCP, and telephony services support voice communication.
 8. Administrators manage routers, switches and firewalls over SSH.
 
-## Getting Started
-
-1. Install Cisco Packet Tracer.
-2. Open the project file (`.pkt`) from this repository.
-3. Verify connectivity between VLANs, DHCP address assignment, OSPF neighbours and HSRP status.
-4. Test NAT and access to the DMZ from the Outside zone, and confirm that ACLs block unintended traffic.
-5. Connect wireless clients to the Corporate, Employee and Guest networks and check that they are segregated.
-6. Test SSH access to the network devices from a management PC.
-
-## Repository Structure
-
-```
-Campus-Network/
-|-- README.md
-`-- campus_network.pkt
-```
-
 ## Future Scope
 
 - Redundant ASA firewalls in failover mode
